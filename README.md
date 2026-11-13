@@ -9,15 +9,11 @@
 
 ## Install Git
 
-[Git](https://git-scm.com/install/windows)
-
 ```
 winget install --id Git.Git -e --source winget
 ```
 
 ## Run ssh-agent
-
-[SSH-AGENT](https://peateasea.de/starting-ssh-agent-in-windows-powershell/)
 
 ```
 # Run Powershell as Administrator, then run these commands
@@ -31,8 +27,6 @@ Get-Service ssh-agent
 
 ## Create SSH Key
 
-[SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
 ```
 # run this command
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -44,13 +38,26 @@ ssh-add c:/Users/YOU/.ssh/id_ed25519
 
 ## Add SSH Key to GitHub
 
-Open GitHub and click on your profile picture and click 'Settings'.  
+Open GitHub and click on your profile picture.  
 
+![PFP](images/PFP_GitHub.png)
+___
+
+Then click 'Settings'.
+
+![Settings](images/Tabs.png)
+___
 In Settings, click on 'SSH and GPG Keys'.  
 
-Click the button that says 'New SSH Key'.  
+![SSH_GPG_Keys](images/SSH_Key_Tab.png)
+___
+Click the button that says 'New SSH Key'.
 
+![New_SSH_Key_Button](images/New_SSH_Key.png)
+___
 In the field below, paste the contents of the public key you created, likely called id_ed25519.pub.  
+
+![Create_Key](images/Key_Create.png)
 
 ## Who Are You?
 
@@ -68,5 +75,7 @@ You should now be able to access GitHub repositories and do things form within y
 ### References
 
 [Git](https://git-scm.com/install/windows)
+
 [SSH-AGENT](https://peateasea.de/starting-ssh-agent-in-windows-powershell/)
+
 [SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
