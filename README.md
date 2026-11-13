@@ -11,8 +11,6 @@
 
 [Git](https://git-scm.com/install/windows)
 
-or  
-
 ```
 winget install --id Git.Git -e --source winget
 ```
@@ -33,7 +31,7 @@ Get-Service ssh-agent
 
 ## Create SSH Key
 
-[ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+[SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ```
 # run this command
@@ -66,3 +64,9 @@ git config --global user.name "Your Name"
 ## All Done
 
 You should now be able to access GitHub repositories and do things form within your terminal.
+
+### References
+
+[Git](https://git-scm.com/install/windows)
+[SSH-AGENT](https://peateasea.de/starting-ssh-agent-in-windows-powershell/)
+[SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
