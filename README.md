@@ -5,6 +5,7 @@
 - Run ssh-agent
 - Create SSH Key
 - Add SSH Key to GitHub
+- Who Are You?
 
 ## Install Git
 
@@ -52,6 +53,15 @@ In Settings, click on 'SSH and GPG Keys'.
 Click the button that says 'New SSH Key'.  
 
 In the field below, paste the contents of the public key you created, likely called id_ed25519.pub.  
+
+## Who Are You?
+
+GitHub doesn't yet know who you are, so we must specify.
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
 
 ## All Done
 
