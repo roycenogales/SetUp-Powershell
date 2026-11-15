@@ -70,7 +70,7 @@ git config --global user.name "Your Name"
 
 ## All Done
 
-You should now be able to access GitHub repositories and do things form within your terminal.
+You should now be able to access GitHub repositories and do things from within your terminal.
 
 ### References
 
